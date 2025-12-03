@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ramya | Portfolio</title>
+
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init("5uzPyp5ZcIfGh52yc");
+        })();
+    </script>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo"> B RAMYA</div>
+        <nav class="nav-links">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="#contact" class="btn-gradient nav-btn">Connect With Me</a>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-alt" id="home">
+        <div class="hero-alt-content">
+            <h1>Hello, I'm <span class="highlight">Ramya</span></h1>
+            <h2 class="hero-role">Web Developer & MERN Stack Enthusiast</h2>
+            <p class="hero-description">
+                I build responsive, accessible, and interactive websites that solve real problems.
+            </p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn-gradient">Get in Touch</a>
+                <a href="Ramya.CV.pdf" target="_blank" class="btn-outline">My Resume</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Secction -->
+    <section class="about" id="about">
+        <h2 class="section-title">About <span>Me</span></h2>
+        <p class="section-subtitle">Web Developer | MERN Learner | Problem Solver</p>
+        <div class="about-content">
+            <div class="about-img">
+                <img src="./assets/profile.photo.jpg" alt="Profile Picture" />
+            </div>
+            <div class="about-text">
+                <p>
+                    Hello! I'm <strong>Ramya</strong>, a passionate and detail-oriented Web Developer with a focus on
+                    building modern, responsive, and user-centric websites.
+                </p>
+                <p>
+                    I’m currently learning and building projects using the <strong>MERN stack</strong> (MongoDB,
+                    Express.js, React, Node.js), which allows me to develop both frontend and backend applications from
+                    scratch.
+                </p>
+                <p>
+                    With a solid foundation in HTML, CSS, and JavaScript, I strive to write clean, maintainable code and
+                    design intuitive user experiences. I enjoy turning ideas into real-world web applications that are
+                    both functional and visually engaging.
+                </p>
+                <p>
+                    I'm continuously learning, growing, and excited to collaborate on meaningful projects that solve
+                    real problems.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SkillSet -->
+    <section id="skills">
+        <h2 class="section-title">My <span>Skills</span></h2>
+        <p class="section-subtitle">Technologies I Work With</p>
+
+        <div class="skills-list-tag container">
+            <div class="skill-group">
+                <h4>Frontend</h4>
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS3</span>
+                    <span>Tailwind CSS</span>
+                    <span>JavaScript</span>
+                    <span>React.js</span>
+                </div>
+            </div>
+
+            <div class="skill-group">
+                <h4>Backend</h4>
+                <div class="tags">
+                    <span>Node.js</span>
+                    <span>Express.js</span>
+                </div>
+            </div>
+
+            <div class="skill-group">
+                <h4>Database</h4>
+                <div class="tags">
+                    <span>MongoDB</span>
+                </div>
+            </div>
+
+            <div class="skill-group">
+                <h4>Version Control</h4>
+                <div class="tags">
+                    <span>Git</span>
+                    <span>GitHub</span>
+                </div>
+            </div>
+
+            <div class="skill-group">
+                <h4>Tools</h4>
+                <div class="tags">
+                    <span>Postman</span>
+                    <span>VS Code</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="experience-section">
+        <div class="experience-container">
+            <div class="experience-box">
+                <h2><span class="gradient-number">6+</span></h2>
+                <p>Months of Experience</p>
+            </div>
+            <div class="divider"></div>
+            <div class="experience-box">
+                <h2><span class="gradient-number">10+</span></h2>
+                <p>Projects Completed</p>
+            </div>
+        </div>
+    </section>
+    <!-- Projects -->
+    <section class="projects-modern-section" id="portfolio">
+        <h2 class="section-title">My <span>Projects</span></h2>
+        <p class="section-subtitle">Things I've Built So Far</p>
+
+        <div class="projects-grid">
+            <!-- Project Card -->
+            <div class="project-card">
+                <div class="project-image" style="background-image: url('./assets/Calulator.png')">
+                    <div class="project-overlay">
+                        <h3>Scientific Calculator</h3>
+                        <p>Fully functional responsive calculator using HTML, CSS, JavaScript.</p>
+                        <div class="project-buttons">
+                            <a href="https://github.com/ramyab999/CalculatorLevel-2" target="_blank">GitHub</a>
+                            <a href="https://ramyab999.github.io/CalculatorLevel-2/" target="_blank">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image" style="background-image: url('./assets/ImageSlider.png')">
+                    <div class="project-overlay">
+                        <h3>Image Slider</h3>
+                        <p>Responsive Image Slider using HTML, CSS, and JavaScript.</p>
+                        <div class="project-buttons">
+                            <a href="https://github.com/ramyab999/ImageSliderLevel-2" target="_blank">GitHub</a>
+                            <a href="https://ramyab999.github.io/ImageSliderLevel-2/" target="_blank">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image" style="background-image: url('./assets/NobiasProject.png')">
+                    <div class="project-overlay">
+                        <h3>NoBias</h3>
+                        <p>A MERN Stack platform to report, view, and manage discrimination cases with Admin/User roles.
+                        </p>
+                        <div class="project-buttons">
+                            <a href="https://github.com/ramyab999/No_Bias" target="_blank">GitHub</a>
+                            <a href="https://ramyab999.github.io/No_Bias/" target="_blank">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image" style="background-image: url('./assets//PhotoGallery.png')">
+                    <div class="project-overlay">
+                        <h3>PhotogGallery</h3>
+                        <p>A simple photo gallery app that fetches random images from the Unsplash API, built with HTML,
+                            CSS, and JavaScript.</p>
+                        <div class="project-buttons">
+                            <a href="https://github.com/ramyab999/PhotogGallery" target="_blank">GitHub</a>
+                            <a href="https://ramyab999.github.io/PhotogGallery/" target="_blank">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image" style="background-image: url('./assets/weatherapp.png')">
+                    <div class="project-overlay">
+                        <h3>WeatherApp</h3>
+                        <p>A React-based weather app that provides real-time weather updates with a clean and responsive
+                            design.</p>
+                        <div class="project-buttons">
+                            <a href="https://github.com/ramyab999/WeatherApp" target="_blank">GitHub</a>
+                            <a href="https://ramyab999.github.io/WeatherApp/" target="_blank">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image" style="background-image: url('./assets/MusicPlayer.jpeg')">
+                    <div class="project-overlay">
+                        <h3>MusicPlayer</h3>
+                        <p>A React-based music player app that allows users to play and manage their favorite tracks
+                            with a beautiful and responsive design.</p>
+                        <div class="project-buttons">
+                            <a href="https://github.com/ramyab999/MusicPlayerLevel-2" target="_blank">GitHub</a>
+                            <a href="https://ramyab999.github.io/MusicPlayerLevel-2/" target="_blank">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+
+    <div class="show-more">
+        <a href="#more-projects">
+            Show More <span class="arrow">→</span>
+        </a>
+    </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-card-section" id="contact">
+        <div class="contact-card-container">
+            <h2 class="contact-title">Let's <span class="highlight-text">Connect</span></h2>
+            <p class="contact-subtext">Have a question or want to work together? Drop a message!</p>
+
+            <form class="contact-card-form" id="contact-form">
+                <input type="text" name="from_name" placeholder="Your Name" required />
+                <input type="email" name="from_email" placeholder="Your Email" required />
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+
+            <p id="status-message"></p>
+
+            <div class="contact-info-card">
+                <p>📧 bellamkondaramya999@gmail.com</p>
+                <p>📞 (+91) 83318 99299</p>
+                <p>📍 Hyderabad, India</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer class="footer-section">
+        <div class="footer-bottom-only">
+            <p>© 2025 <strong>B Ramya</strong>. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#contact">Connect With Me</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+</body>
+
+</html>
